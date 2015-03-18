@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="css/output.css"/>
+		<link rel="stylesheet" type="text/css" href="css/custom_textinputbox.css"/>
+		<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+		<title>Limited input</title> 
+	</head>
+	<body>
+		<form action="#">
+
+			<h1>Limited input</h1>
+
+			<div for="text-count1" class="word-count-textbox">
+				<input type="text" id="text-count1" max-word-count="20" placeholder="Edit title here">
+				</input>
+				<span></span>
+			</div>
+
+			<div for="text-count2" class="word-count-textbox">
+				<input type="text" id="text-count2" max-word-count="3">
+				</input>
+				<span></span>
+			</div>
+
+		<form>
+
+		<script src="js/LimitedInput.js"></script>		
+		<script src="js/main.js"></script>	
+		<!--<script type="text/javascript" src="js/custom-textinputbox.js"></script>-->
+
+	</body>
+</html>
