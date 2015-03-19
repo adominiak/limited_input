@@ -1,9 +1,8 @@
-(function ($) {
+(function () {
 	function Main() {
 		new TEST.LimitedInput();
 	}
-
-	$(document).ready(function() {
+	window.onload = function() {
 		new Main();
-	});
-})(jQuery);
+	};
+})();
